@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C3662D9BB8A427E00C48ADD /* Pods_Star_Trek_CommunicatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F59D495AF65CA1EA74C16A1 /* Pods_Star_Trek_CommunicatorTests.framework */; };
+		A83EEE5D2602081B06E08CC2 /* Pods_Star_Trek_Communicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40471AEE4CE3DEADD4B1BEEE /* Pods_Star_Trek_Communicator.framework */; };
 		E6FF6C7C1E99B1E300E2C16B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6C7B1E99B1E300E2C16B /* AppDelegate.swift */; };
-		E6FF6C7E1E99B1E300E2C16B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6C7D1E99B1E300E2C16B /* ViewController.swift */; };
-		E6FF6C811E99B1E300E2C16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FF6C7F1E99B1E300E2C16B /* Main.storyboard */; };
+		E6FF6C7E1E99B1E300E2C16B /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6C7D1E99B1E300E2C16B /* MessagesController.swift */; };
 		E6FF6C841E99B1E300E2C16B /* Star_Trek_Communicator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6C821E99B1E300E2C16B /* Star_Trek_Communicator.xcdatamodeld */; };
 		E6FF6C861E99B1E300E2C16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6FF6C851E99B1E300E2C16B /* Assets.xcassets */; };
 		E6FF6C891E99B1E300E2C16B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FF6C871E99B1E300E2C16B /* LaunchScreen.storyboard */; };
 		E6FF6C941E99B1E300E2C16B /* Star_Trek_CommunicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6C931E99B1E300E2C16B /* Star_Trek_CommunicatorTests.swift */; };
+		E6FF6CA01E99B76500E2C16B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6C9F1E99B76500E2C16B /* LoginController.swift */; };
+		E6FF6CA31E99B7E100E2C16B /* UIImage+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6CA21E99B7E100E2C16B /* UIImage+helpers.swift */; };
+		E6FF6CA51E99DE8400E2C16B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6FF6CA41E99DE8400E2C16B /* GoogleService-Info.plist */; };
+		E6FF6CA61E99DE8400E2C16B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6FF6CA41E99DE8400E2C16B /* GoogleService-Info.plist */; };
+		E6FF6CA81E99DEDC00E2C16B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E6FF6CA71E99DEDC00E2C16B /* Podfile */; };
+		E6FF6CA91E99DEDC00E2C16B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E6FF6CA71E99DEDC00E2C16B /* Podfile */; };
+		E6FF6CAB1E99E2DE00E2C16B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6CAA1E99E2DE00E2C16B /* Constants.swift */; };
+		E6FF6CAC1E99E2DE00E2C16B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6CAA1E99E2DE00E2C16B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		093831202691BEAEE0789E46 /* Pods-Star Trek Communicator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Star Trek Communicator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Star Trek Communicator/Pods-Star Trek Communicator.debug.xcconfig"; sourceTree = "<group>"; };
+		1058423A8E4270E40A5DEE55 /* Pods-Star Trek CommunicatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Star Trek CommunicatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Star Trek CommunicatorTests/Pods-Star Trek CommunicatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D062D10AB6A2BC37D26DCD7 /* Pods-Star Trek Communicator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Star Trek Communicator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Star Trek Communicator/Pods-Star Trek Communicator.release.xcconfig"; sourceTree = "<group>"; };
+		3F59D495AF65CA1EA74C16A1 /* Pods_Star_Trek_CommunicatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Star_Trek_CommunicatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40471AEE4CE3DEADD4B1BEEE /* Pods_Star_Trek_Communicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Star_Trek_Communicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B42F99B6962CBB427FC881 /* Pods-Star Trek CommunicatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Star Trek CommunicatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Star Trek CommunicatorTests/Pods-Star Trek CommunicatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6FF6C781E99B1E300E2C16B /* Star Trek Communicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Trek Communicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FF6C7B1E99B1E300E2C16B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6FF6C7D1E99B1E300E2C16B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E6FF6C801E99B1E300E2C16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6FF6C7D1E99B1E300E2C16B /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
 		E6FF6C831E99B1E300E2C16B /* Star_Trek_Communicator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Star_Trek_Communicator.xcdatamodel; sourceTree = "<group>"; };
 		E6FF6C851E99B1E300E2C16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6FF6C881E99B1E300E2C16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +52,11 @@
 		E6FF6C8F1E99B1E300E2C16B /* Star Trek CommunicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star Trek CommunicatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FF6C931E99B1E300E2C16B /* Star_Trek_CommunicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_Trek_CommunicatorTests.swift; sourceTree = "<group>"; };
 		E6FF6C951E99B1E300E2C16B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FF6C9F1E99B76500E2C16B /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E6FF6CA21E99B7E100E2C16B /* UIImage+helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+helpers.swift"; sourceTree = "<group>"; };
+		E6FF6CA41E99DE8400E2C16B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E6FF6CA71E99DEDC00E2C16B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E6FF6CAA1E99E2DE00E2C16B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A83EEE5D2602081B06E08CC2 /* Pods_Star_Trek_Communicator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +72,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3662D9BB8A427E00C48ADD /* Pods_Star_Trek_CommunicatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CFA23DE75E8E05E17053438 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40471AEE4CE3DEADD4B1BEEE /* Pods_Star_Trek_Communicator.framework */,
+				3F59D495AF65CA1EA74C16A1 /* Pods_Star_Trek_CommunicatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BC89A7C39BCEF0F569A465E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				093831202691BEAEE0789E46 /* Pods-Star Trek Communicator.debug.xcconfig */,
+				1D062D10AB6A2BC37D26DCD7 /* Pods-Star Trek Communicator.release.xcconfig */,
+				95B42F99B6962CBB427FC881 /* Pods-Star Trek CommunicatorTests.debug.xcconfig */,
+				1058423A8E4270E40A5DEE55 /* Pods-Star Trek CommunicatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E6FF6C6F1E99B1E300E2C16B = {
 			isa = PBXGroup;
 			children = (
+				E6FF6CAA1E99E2DE00E2C16B /* Constants.swift */,
+				E6FF6CA71E99DEDC00E2C16B /* Podfile */,
 				E6FF6C7A1E99B1E300E2C16B /* Star Trek Communicator */,
 				E6FF6C921E99B1E300E2C16B /* Star Trek CommunicatorTests */,
 				E6FF6C791E99B1E300E2C16B /* Products */,
+				7BC89A7C39BCEF0F569A465E /* Pods */,
+				2CFA23DE75E8E05E17053438 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +124,14 @@
 		E6FF6C7A1E99B1E300E2C16B /* Star Trek Communicator */ = {
 			isa = PBXGroup;
 			children = (
+				E6FF6CA11E99B7CC00E2C16B /* Helpers */,
+				E6FF6C9E1E99B73C00E2C16B /* Controller */,
 				E6FF6C7B1E99B1E300E2C16B /* AppDelegate.swift */,
-				E6FF6C7D1E99B1E300E2C16B /* ViewController.swift */,
-				E6FF6C7F1E99B1E300E2C16B /* Main.storyboard */,
 				E6FF6C851E99B1E300E2C16B /* Assets.xcassets */,
 				E6FF6C871E99B1E300E2C16B /* LaunchScreen.storyboard */,
 				E6FF6C8A1E99B1E300E2C16B /* Info.plist */,
 				E6FF6C821E99B1E300E2C16B /* Star_Trek_Communicator.xcdatamodeld */,
+				E6FF6CA41E99DE8400E2C16B /* GoogleService-Info.plist */,
 			);
 			path = "Star Trek Communicator";
 			sourceTree = "<group>";
@@ -99,6 +145,23 @@
 			path = "Star Trek CommunicatorTests";
 			sourceTree = "<group>";
 		};
+		E6FF6C9E1E99B73C00E2C16B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6FF6C9F1E99B76500E2C16B /* LoginController.swift */,
+				E6FF6C7D1E99B1E300E2C16B /* MessagesController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E6FF6CA11E99B7CC00E2C16B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E6FF6CA21E99B7E100E2C16B /* UIImage+helpers.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6FF6C981E99B1E300E2C16B /* Build configuration list for PBXNativeTarget "Star Trek Communicator" */;
 			buildPhases = (
+				85CBA853CEB779067062BA19 /* [CP] Check Pods Manifest.lock */,
 				E6FF6C741E99B1E300E2C16B /* Sources */,
 				E6FF6C751E99B1E300E2C16B /* Frameworks */,
 				E6FF6C761E99B1E300E2C16B /* Resources */,
+				C434732B708951AC6E449C91 /* [CP] Embed Pods Frameworks */,
+				305DA511ADB855C04B345E74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6FF6C9B1E99B1E300E2C16B /* Build configuration list for PBXNativeTarget "Star Trek CommunicatorTests" */;
 			buildPhases = (
+				E7FE2B50CD7C86ED1F92D0AA /* [CP] Check Pods Manifest.lock */,
 				E6FF6C8B1E99B1E300E2C16B /* Sources */,
 				E6FF6C8C1E99B1E300E2C16B /* Frameworks */,
 				E6FF6C8D1E99B1E300E2C16B /* Resources */,
+				0E7F1FBD39563C668C4DCFF4 /* [CP] Embed Pods Frameworks */,
+				BEF18FC2AE2540D67CC60036 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,7 +253,8 @@
 			files = (
 				E6FF6C891E99B1E300E2C16B /* LaunchScreen.storyboard in Resources */,
 				E6FF6C861E99B1E300E2C16B /* Assets.xcassets in Resources */,
-				E6FF6C811E99B1E300E2C16B /* Main.storyboard in Resources */,
+				E6FF6CA81E99DEDC00E2C16B /* Podfile in Resources */,
+				E6FF6CA51E99DE8400E2C16B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,19 +262,117 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FF6CA91E99DEDC00E2C16B /* Podfile in Resources */,
+				E6FF6CA61E99DE8400E2C16B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E7F1FBD39563C668C4DCFF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Star Trek CommunicatorTests/Pods-Star Trek CommunicatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		305DA511ADB855C04B345E74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Star Trek Communicator/Pods-Star Trek Communicator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85CBA853CEB779067062BA19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF18FC2AE2540D67CC60036 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Star Trek CommunicatorTests/Pods-Star Trek CommunicatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C434732B708951AC6E449C91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Star Trek Communicator/Pods-Star Trek Communicator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7FE2B50CD7C86ED1F92D0AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E6FF6C741E99B1E300E2C16B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FF6CA31E99B7E100E2C16B /* UIImage+helpers.swift in Sources */,
 				E6FF6C841E99B1E300E2C16B /* Star_Trek_Communicator.xcdatamodeld in Sources */,
-				E6FF6C7E1E99B1E300E2C16B /* ViewController.swift in Sources */,
+				E6FF6CA01E99B76500E2C16B /* LoginController.swift in Sources */,
+				E6FF6C7E1E99B1E300E2C16B /* MessagesController.swift in Sources */,
 				E6FF6C7C1E99B1E300E2C16B /* AppDelegate.swift in Sources */,
+				E6FF6CAB1E99E2DE00E2C16B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6FF6C941E99B1E300E2C16B /* Star_Trek_CommunicatorTests.swift in Sources */,
+				E6FF6CAC1E99E2DE00E2C16B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,14 +396,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E6FF6C7F1E99B1E300E2C16B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E6FF6C801E99B1E300E2C16B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E6FF6C871E99B1E300E2C16B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -343,6 +504,7 @@
 		};
 		E6FF6C991E99B1E300E2C16B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 093831202691BEAEE0789E46 /* Pods-Star Trek Communicator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Star Trek Communicator/Info.plist";
@@ -355,6 +517,7 @@
 		};
 		E6FF6C9A1E99B1E300E2C16B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D062D10AB6A2BC37D26DCD7 /* Pods-Star Trek Communicator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Star Trek Communicator/Info.plist";
@@ -367,6 +530,7 @@
 		};
 		E6FF6C9C1E99B1E300E2C16B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B42F99B6962CBB427FC881 /* Pods-Star Trek CommunicatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -381,6 +545,7 @@
 		};
 		E6FF6C9D1E99B1E300E2C16B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1058423A8E4270E40A5DEE55 /* Pods-Star Trek CommunicatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +577,7 @@
 				E6FF6C9A1E99B1E300E2C16B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6FF6C9B1E99B1E300E2C16B /* Build configuration list for PBXNativeTarget "Star Trek CommunicatorTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +586,7 @@
 				E6FF6C9D1E99B1E300E2C16B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
